@@ -1,0 +1,289 @@
+nav img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: relative;
+	margin: 0px;
+	top: 10px;
+}
+nav h1
+{
+	padding: 10px;
+	margin: 0px;
+	font-family: monospace;
+	font-size: 40px;
+	color:lime ;
+	background-color: royalblue;
+	position: relative;
+	top: -10px;
+}
+body 
+{
+ margin: 0px;
+}
+nav 
+{
+	width: 100%;
+	height: 100px;
+	background-color: royalblue;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;	
+	margin: 0px;
+
+}
+body
+{
+	background-color: #c3d7f7;
+}
+nav .links a 
+{
+	position: relative;
+	left: 40px;
+	padding: 8px 10px 8px 10px;
+	color: #b6dbd0;
+	text-decoration: none;
+	margin: 10px auto;
+	border-radius: 10px;
+	width:95px;
+}
+nav .links a:hover 
+{
+	box-shadow: 0 0 10px white;
+}
+
+input[type='text'],input[type=password]
+{
+	position: relative;
+	border-radius: 5px;
+	left: 52px;
+	top: -2px;
+	height: 25px;
+	border: none;
+	margin: none;
+}
+input[type='text']:hover
+{
+	border: none;
+ }
+@media (max-width: 1150px)
+{
+	nav 
+	{
+		flex-direction: column;
+		height: 180px;
+	}
+}
+@media (max-width:900px)
+{
+	nav
+	{
+		height: 390px;
+	}
+	nav .links a
+	{
+		display: block;
+		position: relative;
+		
+	}	
+}
+.wrapper 
+{
+	background-image: url("o3.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	height: 600px;
+	width: 100%;
+}
+.wrapper .text1
+{
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: rgba(1,1,1,0.7);
+	height: 600px ;
+	justify-content: center;
+	font-size: 25px;
+	color: #c3d7f7;
+}
+#p1 
+{
+	width: 300px;
+}
+.h1
+{
+	text-align: center;
+	color: #364742;
+}
+.a1
+{
+	display: inline-grid;	
+	padding: 20px;
+}
+
+.f1
+{
+	border: 4px solid lime;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #eb520c;
+	margin: 0px;
+}
+button
+{
+	width: 500px;
+	position: relative;
+	left: 20px;
+	color: white;
+	background-color: #00a2ed;
+	height: 40px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: none;
+	padding: 10px;
+	margin: 10px;
+}
+form 
+{
+	width: 400px;
+	margin: 50px 500px;
+
+}
+legend 
+{
+  border: 2px solid royalblue;
+  font-family: serif;
+  font-size: 20px;
+  color: white;
+  background-color: deepskyblue;
+
+}
+fieldset
+{
+	background-color:deepskyblue;
+	font-family: sans-serif;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 20px;
+}
+input[type='submit'],input[type='reset']
+{
+	padding: 5px 15px 5px 15px;
+	margin: 10px 20px;
+	color: #004b69;
+	border-radius: 5px;
+	border: none;
+	position: relative;
+	top: 10px;
+
+}
+.l1 
+{
+	margin: 20px 10px;
+	color: #004b69;
+
+}
+input[type='submit']:hover
+{
+	box-shadow: 0 0 10px white;
+	border: 3px solid aqua;
+	margin: 0px 17px;
+}
+input[type='reset']:hover
+{
+	box-shadow: 0 0 10px white;
+	border: 3px solid aqua;
+	margin: 0px 17px;
+}
+table 
+{
+	width: 100%;
+	padding: 10px 0px 0px 90px;
+}
+footer h1,article
+{
+	text-align: center;
+	margin: 0px;
+
+
+}
+footer article 
+{
+	color: #b6dbd0;
+}
+footer h1 
+{
+   padding: 20px 0px 0px 0px;
+   color: lime;
+}
+.t2 
+{
+	background-color: royalblue;
+}
+.i2 
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px;
+	border: 0px;
+}
+.wrapper1 
+{
+	background-image: url("010.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+	height: 600px;
+	width: 100%;
+}
+.wrapper1 .text2
+{
+	text-align: center;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	background-color: rgba(10,10,10,0.6);
+	height: 600px ;
+	justify-content: center;
+	font-size: 25px;
+	color: #c3d7f7;
+}
+td 
+{
+	color:#b6dbd0;
+}
+.o1
+{
+  border-radius: 50%;
+  margin: 0px;
+}
+.d1 
+{
+	text-decoration-line: underline;
+	text-decoration-style: unset;
+	text-decoration-color:#b6dbd0 ;
+	padding: 5px;
+
+}
+.d2 
+{
+	text-align: center;
+}
+h4
+{
+	color: #b6dbd0;
+	text-align: center;
+}
+.g1 
+{
+	background-color:#c3d7f7 ;
+	border-radius:40%;
+	color:#c3d7f7 ;
+}
